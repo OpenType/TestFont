@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      @font-face {
+        font-family: 'TestFont';
+        src: url('../bin/TestFont-LocalizedForms.woff') format('woff');
+      }
+    </style>
+  </head>
+  <body style="font-family:TestFont">
+    <h1>OpenType Test: Localized Forms</h1>
+
+    <p>
+      Look at the sea of faces below. If they all look like
+      <span lang="fr">OT:FRA</span>, the test is passing.
+      If any face looks like <span lang="fr">OT:ENG</span>,
+      your browser has failed to select the correct letter form
+      for a language. In that case, please hover over that face
+      and report the appearing text as a bug to your browser vendor.
+      For example,
+      <code>cy → WEL</code> means the browser was told to render the
+      text in Welsh, whose
+      <a href="https://tools.ietf.org/html/bcp47">IETF BCP47 language
+      tag</a> is <code>cy</code>. For rendering text with localized
+      letter forms, the browser needs to convert this to an
+      <a href="https://www.microsoft.com/typography/otspec/languagetags.htm">OpenType
+      language system tag</a>, which would be <code>WEL</code> for the
+      Welsh language. See <a href="https://github.com/OpenType/TestFont/blob/master/doc/LocalizedForms.md">here</a> for background.
+    </p>
+
+    <div>TODO: Add many, many more test cases.</div>
+
+    <div>
+<span lang="cy" title="cy → WEL">OT:WEL</span
+><span lang="cy-fonipa" title="cy-fonipa → IPPH">OT:IPPH</span
+><span lang="de" title="de → DEU">OT:DEU</span
+><span lang="de-CH" title="de-CH → DEU">OT:DEU</span
+><span lang="de-CH-1901" title="de-CH-1901 → DEU">OT:DEU</span
+><span lang="de-CH-fonipa" title="de-CH-fonipa → IPPH">OT:IPPH</span
+><span lang="nqo" title="nqo → NKO">OT:NKO</span
+><span lang="rm" title="rm → RMS">OT:RMS</span
+><span lang="wo" title="wo → WLF">OT:WLF</span
+><span lang="zh" title="zh → ZHS">OT:ZHS</span
+><span lang="zh-CN" title="zh-CN → ZHS">OT:ZHS</span
+><span lang="zh-CN-fonipa" title="zh-CN-fonipa → IPPH">OT:IPPH</span
+><span lang="zh-Latn-pinyin" title="zh-Latn-pinyin → ZHP">OT:ZHP</span
+><span lang="zh-TW" title="zh-TW → ZHT">OT:ZHT</span
+><span lang="zh-Hans" title="zh-Hans → ZHS">OT:ZHS</span
+><span lang="zh-Hant" title="zh-Hant → ZHT">OT:ZHT</span
+>
+
+    </div>
+  </body>
+</html>
