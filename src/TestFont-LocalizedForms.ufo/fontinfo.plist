@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>2189</integer>
+	<key>capHeight</key>
+	<integer>1462</integer>
+	<key>copyright</key>
+	<string>Copyright © 2016 by Sascha Brawer</string>
+	<key>descender</key>
+	<integer>-600</integer>
+	<key>familyName</key>
+	<string>TestFont-LocalizedForms</string>
+	<key>guidelines</key>
+	<array/>
+	<key>italicAngle</key>
+	<integer>0</integer>
+	<key>note</key>
+	<string></string>
+	<key>openTypeHeadCreated</key>
+	<string>2016/05/28 14:09:13</string>
+	<key>openTypeHheaAscender</key>
+	<integer>2189</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-600</integer>
+	<key>openTypeNameDesigner</key>
+	<string>Sascha Brawer</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>http://www.brawer.ch/</string>
+	<key>openTypeNameLicense</key>
+	<string>SIL Open Font License v1.1 without a Reserved Font Name</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>https://opensource.org/licenses/OFL-1.1</string>
+	<key>openTypeNameManufacturer</key>
+	<string></string>
+	<key>openTypeNameManufacturerURL</key>
+	<string></string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>TestFont</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>LocalizedForms</string>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>2189</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-600</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>0</integer>
+	<key>openTypeOS2WeightClass</key>
+	<integer>400</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>2189</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>600</integer>
+	<key>postscriptBlueValues</key>
+	<array/>
+	<key>postscriptFamilyBlues</key>
+	<array/>
+	<key>postscriptFamilyOtherBlues</key>
+	<array/>
+	<key>postscriptFontName</key>
+	<string>TestFont-LocalizedForms</string>
+	<key>postscriptOtherBlues</key>
+	<array/>
+	<key>postscriptStemSnapH</key>
+	<array/>
+	<key>postscriptStemSnapV</key>
+	<array/>
+	<key>postscriptUnderlinePosition</key>
+	<integer>-205</integer>
+	<key>postscriptUnderlineThickness</key>
+	<integer>102</integer>
+	<key>styleMapFamilyName</key>
+	<string></string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>trademark</key>
+	<string></string>
+	<key>unitsPerEm</key>
+	<integer>2048</integer>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>0</integer>
+	<key>xHeight</key>
+	<integer>1098</integer>
+</dict>
+</plist>

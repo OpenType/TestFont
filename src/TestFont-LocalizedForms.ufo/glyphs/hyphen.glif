@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen" format="2">
+  <advance width="659"/>
+  <unicode hex="002D"/>
+  <note>
+    hyphen
+  </note>
+  <outline>
+    <contour>
+      <point x="578" y="629" type="line"/>
+      <point x="82" y="629" type="line"/>
+      <point x="82" y="469" type="line"/>
+      <point x="578" y="469" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-05-29 00:45:11 +0000</string>
+    </dict>
+  </lib>
+</glyph>

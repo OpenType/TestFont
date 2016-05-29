@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni201F" format="2">
+  <advance width="735"/>
+  <unicode hex="201F"/>
+  <note>
+    uni201F
+  </note>
+  <outline>
+    <contour>
+      <point x="399" y="1440" type="line"/>
+      <point x="436" y="1295"/>
+      <point x="518" y="1086"/>
+      <point x="578" y="961" type="curve"/>
+      <point x="711" y="961" type="line"/>
+      <point x="666" y="1138"/>
+      <point x="632" y="1305"/>
+      <point x="608" y="1462" type="curve"/>
+      <point x="414" y="1462" type="line"/>
+    </contour>
+    <contour>
+      <point x="25" y="1440" type="line"/>
+      <point x="53" y="1321"/>
+      <point x="129" y="1113"/>
+      <point x="201" y="961" type="curve"/>
+      <point x="332" y="961" type="line"/>
+      <point x="287" y="1138"/>
+      <point x="253" y="1305"/>
+      <point x="229" y="1462" type="curve"/>
+      <point x="37" y="1462" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-05-29 00:45:11 +0000</string>
+    </dict>
+  </lib>
+</glyph>
