@@ -62,12 +62,12 @@ this test font can help making sure that there are no bugs.
 ## What does the font do?
 
 The test font will always rewrite letter sequences like `OT:WEL` to a
-face symbol.  If the font’s `loca` feature for Welsh has been
+face symbol.  If the font’s `locl` feature for Welsh has been
 activated, this face will be a smiley; otherwise, it will have a
 frowning look.  The frowning version also uses much more ink,
 so it is easy to spot among a sea of smileys.
 
-The font has a `loca` feature for every [language system
+The font has a `locl` feature for every [language system
 tag](https://www.microsoft.com/typography/otspec170/languagetags.htm)
 defined in OpenType 1.7.
 
