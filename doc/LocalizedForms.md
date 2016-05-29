@@ -17,7 +17,7 @@ Unification](https://en.wikipedia.org/wiki/Han_unification).” However,
 while these characters have the same root and the same meaning, their
 typographic rendering style is recognizably different across
 languages. To render text in acceptable quality, a graphics library
-needs to know the text langauge. If the font supports this,
+needs to know the text language. If the font supports this,
 typographic adjustments will tweak the appearance of the text.
 
 Localized forms also exist in languages outside of Asia.
@@ -75,15 +75,17 @@ defined in OpenType 1.7.
 ## How can I use this font?
 
 It depends on what system you want to test. To test a web browser,
-write HTML snippets like this.
+write HTML snippets like the following; use `OT:WEL` to indicate
+that the snippet should be rendered in OpenType language system
+for Welsh.
 
 ```html
   <div lang="cy">OT:WEL cy → WEL</div>
   <div lang="de">OT:DEU de → DEU</div>
   <div lang="de-CH-1901">OT:DEU de-CH-1901 → DEU</div>
-  <div lang="de-CH-1901-fonipa">OT:IPPH de-CH-1901-fonipa → IPPH</div>
+  <div lang="de-CH-fonipa">OT:IPPH de-CH-fonipa → IPPH</div>
   <div lang="fr-CA">OT:FRA fr-CA → FRA</div>
-  <div lang="IT-nedis">OT:SLV sl-IT-nedis → SLV</div>
+  <div lang="sl-IT-nedis">OT:SLV sl-IT-nedis → SLV</div>
   <div lang="umb">OT:UMB umb → UMB</div>
   <div lang="wo">OT:WLF wo → WLF</div>
 ```
