@@ -77,10 +77,11 @@ defined in OpenType 1.7.
 For testing **web browsers**, simply go to our [browser test page](https://raw.githack.com/OpenType/TestFont/master/doc/LocalizedForms.html).
 For testing **word processors** and other **desktop applications**,
 install
-[TestFont-LocalizedForms.otf](../bin/TestFont-LocalizedForms.otf) in
-your operating system. Then, type the characters `OT:PLK` into a new
+[TestFont-LocalizedForms.otf](
+https://github.com/OpenType/TestFont/raw/master/bin/TestFont-LocalizedForms.otf)
+in your operating system. Then, type the characters `OT:PLK` into a new
 document, mark them as Polish using whatever widget your application
-may have, and select “TestFont-LocalizedForms” as the font. If your
+may offer for this, and select “TestFont-LocalizedForms” as the font. If your
 application supports Polish letterforms, you’ll see a happy face;
 otherwise you’ve found a bug worth reporting. Make sure
 to test every language in the [OpenType language registry](https://www.microsoft.com/typography/otspec/languagetags.htm).
