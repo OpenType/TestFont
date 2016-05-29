@@ -4,7 +4,7 @@ If you write software that renders text, for example a word processor,
 a web browser, or an operating system library, we hope that you’ll
 find `TestFont-LocalizedForms.otf` useful for testing.
 
-![screenshot](LocalizedForms.png)
+![screenshot](LocalizedForms.png =467x105)
 
 
 ## What are localized letter forms?
