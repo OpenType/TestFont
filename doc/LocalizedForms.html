@@ -11,6 +11,8 @@
   <body style="font-family:TestFont">
     <h1>OpenType Test: Localized Forms</h1>
 
+    <p style="color:red">THIS IS A DRAFT, DO NOT USE YET</p>
+
     <p>
       Look at the sea of faces below. If they all look like
       <span lang="fr">OT:FRA</span>, the test is passing.
@@ -29,25 +31,685 @@
       Welsh language. See <a href="https://github.com/OpenType/TestFont/blob/master/doc/LocalizedForms.md">here</a> for background.
     </p>
 
-    <div>TODO: Add many, many more test cases.</div>
+    <p>TODO: Add many, many more test cases.</p>
 
-    <div style="cursor:pointer">
-<span lang="cy" title="cy → WEL">OT:WEL</span
+    <p>
+        TODO: Resolve the following issues with BCP47 → OpenType mapping.
+        ak → AKA,TWI · chp → CHP,SAY · cr → CRE,YCR,DCR,TCR ·
+        crm → LCR,MCR · csw → NCR,NHC · den → SLA,SSL ·
+        ga → IRI,IRT ·
+        hy → HYE,HYE0 · ka → KAT,KGE · kca → KHK,KHS,KHV ·
+        krc → BAL,KAR · man → EMK,MNK,MND · ml → MAL,MLR ·
+        mlq → MLN,MNK · scs → SCS,SLA · xal → KLM,TOD ·
+        zh → ZHH,ZHP,ZHS,ZHT
+    </[>
+
+    <p>
+        TODO: The OpenType spec gives a language code HAL for
+        Halam, and says it corresponds to ISO 639 code flm.
+        However, ISO 639-3 has retired flm as a language code;
+        it got split into Ranglong [rnl], and Falam Chin (new
+        identifier [cfm]). Suggestion: In the OpenType registry,
+        change ISO column for Halam/HAL to cfm,flm,rnl.
+        However, BCP47 has only cfm and rnl, but not flm.
+    </p>
+
+    <p>
+        TODO: The OpenType spec gives a language code SIG for
+        Silte Gurage, and says it corresponds to ISO 639 code xst.
+        However, ISO 639-3 has retired xst as a language code;
+        it got split into Wolane [wle] and Silt'e [stv].
+        Suggestion: In the OpenType registry, change the ISO column for SIG
+        to wle,stv,xst. However, BCP47 has only wle and stv, but not xst.
+    </p>
+
+    <div style="cursor:pointer">A:
+ <span lang="aa" title="aa → AFR">OT:AFR</span
+><span lang="ab" title="ab → ABK">OT:ABK</span
+><span lang="abq" title="abq → ABA">OT:ABA</span
+><span lang="acf" title="acf → FAN">OT:FAN</span
+><span lang="ach" title="ach → ACH">OT:ACH</span
+><span lang="ada" title="ada → DNG">OT:DNG</span
+><span lang="ady" title="ady → ADY">OT:ADY</span
+><span lang="af" title="af → AFK">OT:AFK</span
+><span lang="ahg" title="ahg → AGW">OT:AGW</span
+><span lang="aii" title="aii → SWA">OT:SWA</span
+><span lang="aio" title="aio → AIO">OT:AIO</span
+><span lang="aiw" title="aiw → ARI">OT:ARI</span
+><span lang="ak" title="ak → FAT">OT:FAT</span
+><span lang="alt" title="alt → ALT">OT:ALT</span
+><span lang="am" title="am → AMH">OT:AMH</span
+><span lang="amf" title="amf → HBN">OT:HBN</span
+><span lang="an" title="an → ARG">OT:ARG</span
+><span lang="ang" title="ang → ANG">OT:ANG</span
+><span lang="ar" title="ar → ARA">OT:ARA</span
+><span lang="arn" title="arn → MAP">OT:MAP</span
+><span lang="as" title="as → ASM">OT:ASM</span
+><span lang="ast" title="ast → AST">OT:AST</span
+><span lang="atj" title="atj → RCR">OT:RCR</span
+><span lang="atv" title="atv → ALT">OT:ALT</span
+><span lang="av" title="av → AVR">OT:AVR</span
+><span lang="awa" title="awa → AWA">OT:AWA</span
+><span lang="ay" title="ay → AYM">OT:AYM</span
+><span lang="az" title="az → AZE">OT:AZE</span
+><span lang="azb" title="azb → AZB">OT:AZB</span
+
+></div><div style="cursor:pointer">B:
+ <span lang="ba" title="ba → BSH">OT:BSH</span
+><span lang="bad" title="bad → BAD0">OT:BAD0</span
+><span lang="bal" title="bal → BLI">OT:BLI</span
+><span lang="ban" title="ban → BAN">OT:BAN</span
+><span lang="bar" title="bar → BAR">OT:BAR</span
+><span lang="bbc" title="bbc → BBC">OT:BBC</span
+><span lang="bci" title="bci → BAU">OT:BAU</span
+><span lang="bcq" title="bcq → BCH">OT:BCH</span
+><span lang="bdy" title="bdy → BDY">OT:BDY</span
+><span lang="be" title="be → BEL">OT:BEL</span
+><span lang="bem" title="bem → BEM">OT:BEM</span
+><span lang="bfq" title="bfq → BAD">OT:BAD</span
+><span lang="bft" title="bft → BLT">OT:BLT</span
+><span lang="bfu" title="bfu → LAH">OT:LAH</span
+><span lang="bfy" title="bfy → BAG">OT:BAG</span
+><span lang="bg" title="bg → BGR">OT:BGR</span
+><span lang="bgc" title="bgc → BGC">OT:BGC</span
+><span lang="bgq" title="bgq → BGQ">OT:BGQ</span
+><span lang="bhb" title="bhb → BHI">OT:BHI</span
+><span lang="bhi" title="bhi → BHI">OT:BHI</span
+><span lang="bhk" title="bhk → BIK">OT:BIK</span
+><span lang="bho" title="bho → BHO">OT:BHO</span
+><span lang="bi" title="bi → BIS">OT:BIS</span
+><span lang="bik" title="bik → BIK">OT:BIK</span
+><span lang="bik" title="bik → BIK">OT:BIK</span
+><span lang="bin" title="bin → EDO">OT:EDO</span
+><span lang="bjj" title="bjj → BJJ">OT:BJJ</span
+><span lang="bjt" title="bjt → BLN">OT:BLN</span
+><span lang="bla" title="bla → BKF">OT:BKF</span
+><span lang="ble" title="ble → BLN">OT:BLN</span
+><span lang="blk" title="blk → BLK">OT:BLK</span
+><span lang="bln" title="bln → BIK">OT:BIK</span
+><span lang="bm" title="bm → BMB">OT:BMB</span
+><span lang="bn" title="bn → BEN">OT:BEN</span
+><span lang="bo" title="bo → TIB">OT:TIB</span
+><span lang="bpy" title="bpy → BPY">OT:BPY</span
+><span lang="bqi" title="bqi → LRC">OT:LRC</span
+><span lang="br" title="br → BRE">OT:BRE</span
+><span lang="bra" title="bra → BRI">OT:BRI</span
+><span lang="brh" title="brh → BRH">OT:BRH</span
+><span lang="brx" title="brx → BRX">OT:BRX</span
+><span lang="bs" title="bs → BOS">OT:BOS</span
+><span lang="bsk" title="bsk → BSK">OT:BSK</span
+><span lang="btb" title="btb → BTI">OT:BTI</span
+><span lang="bto" title="bto → BIK">OT:BIK</span
+><span lang="bts" title="bts → BTS">OT:BTS</span
+><span lang="bua" title="bua → RBU">OT:RBU</span
+><span lang="bug" title="bug → BUG">OT:BUG</span
+><span lang="byn" title="byn → BIL">OT:BIL</span
+><span lang="byv" title="byv → BYV">OT:BYV</span
+
+></div><div style="cursor:pointer">C:
+ <span lang="ca" title="ca → CAT">OT:CAT</span
+><span lang="caf" title="caf → CRR">OT:CRR</span
+><span lang="cak" title="cak → CAK">OT:CAK</span
+><span lang="cbk" title="cbk → CBK">OT:CBK</span
+><span lang="ce" title="ce → CHE">OT:CHE</span
+><span lang="ceb" title="ceb → CEB">OT:CEB</span
+><span lang="cfm" title="cfm → HAL">OT:HAL</span
+><span lang="cgg" title="cgg → CGG">OT:CGG</span
+><span lang="ch" title="ch → CHA">OT:CHA</span
+><span lang="chk" title="chk → CHK0">OT:CHK0</span
+><span lang="chm" title="chm → LMA">OT:LMA</span
+><span lang="cho" title="cho → CHO">OT:CHO</span
+><span lang="chr" title="chr → CHR">OT:CHR</span
+><span lang="chy" title="chy → CHY">OT:CHY</span
+><span lang="ckt" title="ckt → CHK">OT:CHK</span
+><span lang="co" title="co → COS">OT:COS</span
+><span lang="cop" title="cop → COP">OT:COP</span
+><span lang="cpp" title="cpp → CPP">OT:CPP</span
+><span lang="crh" title="crh → CRT">OT:CRT</span
+><span lang="crj" title="crj → ECR">OT:ECR</span
+><span lang="crk" title="crk → WCR">OT:WCR</span
+><span lang="crl" title="crl → ECR">OT:ECR</span
+><span lang="crx" title="crx → CRR">OT:CRR</span
+><span lang="cs" title="cs → CSY">OT:CSY</span
+><span lang="csb" title="csb → CSB">OT:CSB</span
+><span lang="ctg" title="ctg → CTG">OT:CTG</span
+><span lang="cts" title="cts → BIK">OT:BIK</span
+><span lang="cu" title="cu → CSL">OT:CSL</span
+><span lang="cuk" title="cuk → CUK">OT:CUK</span
+><span lang="cv" title="cv → CHU">OT:CHU</span
+><span lang="cy" title="cy → WEL">OT:WEL</span
 ><span lang="cy-fonipa" title="cy-fonipa → IPPH">OT:IPPH</span
+
+></div><div style="cursor:pointer">D:
+ <span lang="da" title="da → DAN">OT:DAN</span
+><span lang="dap" title="dap → NIS">OT:NIS</span
+><span lang="dar" title="dar → DAR">OT:DAR</span
+><span lang="dax" title="dax → DAX">OT:DAX</span
 ><span lang="de" title="de → DEU">OT:DEU</span
 ><span lang="de-CH" title="de-CH → DEU">OT:DEU</span
 ><span lang="de-CH-1901" title="de-CH-1901 → DEU">OT:DEU</span
 ><span lang="de-CH-fonipa" title="de-CH-fonipa → IPPH">OT:IPPH</span
+><span lang="dhg" title="dhg → DHG">OT:DHG</span
+><span lang="din" title="din → DNK">OT:DNK</span
+><span lang="dje" title="dje → DJR">OT:DJR</span
+><span lang="djr" title="djr → DJR0">OT:DJR0</span
+><span lang="dng" title="dng → DUN">OT:DUN</span
+><span lang="dnj" title="dnj → DNJ">OT:DNJ</span
+><span lang="doi" title="doi → DGO">OT:DGO</span
+><span lang="doi" title="doi → DGR">OT:DGR</span
+><span lang="dsb" title="dsb → LSB">OT:LSB</span
+><span lang="duj" title="duj → DUJ">OT:DUJ</span
+><span lang="dv" title="dv → DIV">OT:DIV</span
+><span lang="dyu" title="dyu → JUL">OT:JUL</span
+><span lang="dz" title="dz → DZN">OT:DZN</span
+
+></div><div style="cursor:pointer">E:
+ <span lang="ee" title="ee → EWE">OT:EWE</span
+><span lang="efi" title="efi → EFI">OT:EFI</span
+><span lang="el" title="el → ELL">OT:ELL</span
+><span lang="el-TR" title="el-TR → ELL">OT:ELL</span
+><span lang="el-fonipa" title="el-fonipa → IPPH">OT:IPPH</span
+><span lang="el-polyton" title="el-polyton → PGR">OT:PGR</span
+><span lang="el-polyton-fonipa" title="el-polyton-fonipa → IPPH">OT:IPPH</span
+><span lang="en" title="en → ENG">OT:ENG</span
+><span lang="enf" title="enf → FNE">OT:FNE</span
+><span lang="enh" title="enh → TNE">OT:TNE</span
+><span lang="eo" title="eo → NTO">OT:NTO</span
+><span lang="es" title="es → ESP">OT:ESP</span
+><span lang="esu" title="esu → ESU">OT:ESU</span
+><span lang="et" title="et → ETI">OT:ETI</span
+><span lang="eu" title="eu → EUQ">OT:EUQ</span
+><span lang="eve" title="eve → EVN">OT:EVN</span
+><span lang="evn" title="evn → EVK">OT:EVK</span
+
+></div><div style="cursor:pointer">F:
+ <span lang="fa" title="fa → FAR">OT:FAR</span
+><span lang="fan" title="fan → FAN0">OT:FAN0</span
+><span lang="ff" title="ff → FUL">OT:FUL</span
+><span lang="fi" title="fi → FIN">OT:FIN</span
+><span lang="fil" title="fil → PIL">OT:PIL</span
+><span lang="fil" title="fil → TGL">OT:TGL</span
+><span lang="fj" title="fj → FJI">OT:FJI</span
+><span lang="fmp" title="fmp → FMP">OT:FMP</span
+><span lang="fo" title="fo → FOS">OT:FOS</span
+><span lang="fon" title="fon → FON">OT:FON</span
+><span lang="fr" title="fr → FRA">OT:FRA</span
+><span lang="frc" title="frc → FRC">OT:FRC</span
+><span lang="frp" title="frp → FRP">OT:FRP</span
+><span lang="fuf" title="fuf → FTA">OT:FTA</span
+><span lang="fur" title="fur → FRL">OT:FRL</span
+><span lang="fuv" title="fuv → FUV">OT:FUV</span
+><span lang="fy" title="fy → FRI">OT:FRI</span
+
+></div><div style="cursor:pointer">G:
+ <span lang="gaa" title="gaa → GAD">OT:GAD</span
+><span lang="gag" title="gag → GAG">OT:GAG</span
+><span lang="gbm" title="gbm → GAW">OT:GAW</span
+><span lang="gd" title="gd → GAE">OT:GAE</span
+><span lang="gez" title="gez → GEZ">OT:GEZ</span
+><span lang="gih" title="gih → GIH">OT:GIH</span
+><span lang="gil" title="gil → GIL0">OT:GIL0</span
+><span lang="gkp" title="gkp → GKP">OT:GKP</span
+><span lang="gl" title="gl → GAL">OT:GAL</span
+><span lang="gld" title="gld → NAN">OT:NAN</span
+><span lang="glk" title="glk → GLK">OT:GLK</span
+><span lang="gn" title="gn → GUA">OT:GUA</span
+><span lang="gnn" title="gnn → GNN">OT:GNN</span
+><span lang="gog" title="gog → GOG">OT:GOG</span
+><span lang="gon" title="gon → GON">OT:GON</span
+><span lang="grt" title="grt → GRO">OT:GRO</span
+><span lang="gru" title="gru → SOG">OT:SOG</span
+><span lang="gsw" title="gsw → ALS">OT:ALS</span
+><span lang="gu" title="gu → GUJ">OT:GUJ</span
+><span lang="guc" title="guc → GUC">OT:GUC</span
+><span lang="guf" title="guf → GUF">OT:GUF</span
+><span lang="guk" title="guk → GMZ">OT:GMZ</span
+><span lang="guz" title="guz → GUZ">OT:GUZ</span
+><span lang="gv" title="gv → MNX">OT:MNX</span
+
+></div><div style="cursor:pointer">H:
+ <span lang="ha" title="ha → HAU">OT:HAU</span
+><span lang="har" title="har → HRI">OT:HRI</span
+><span lang="haw" title="haw → HAW">OT:HAW</span
+><span lang="hay" title="hay → HAY">OT:HAY</span
+><span lang="haz" title="haz → HAZ">OT:HAZ</span
+><span lang="he" title="he → IWR">OT:IWR</span
+><span lang="hi" title="hi → HIN">OT:HIN</span
+><span lang="hil" title="hil → HIL">OT:HIL</span
+><span lang="hmn" title="hmn → HMN">OT:HMN</span
+><span lang="hnd" title="hnd → HND">OT:HND</span
+><span lang="hne" title="hne → CHH">OT:CHH</span
+><span lang="hno" title="hno → HND">OT:HND</span
+><span lang="ho" title="ho → HMO">OT:HMO</span
+><span lang="hoc" title="hoc → HO">OT:HO</span
+><span lang="hoj" title="hoj → HAR">OT:HAR</span
+><span lang="hr" title="hr → HRV">OT:HRV</span
+><span lang="hsb" title="hsb → USB">OT:USB</span
+><span lang="ht" title="ht → HAI">OT:HAI</span
+><span lang="hu" title="hu → HUN">OT:HUN</span
+><span lang="hz" title="hz → HER">OT:HER</span
+
+></div><div style="cursor:pointer">I:
+ <span lang="ia" title="ia → INA">OT:INA</span
+><span lang="iba" title="iba → IBA">OT:IBA</span
+><span lang="ibb" title="ibb → IBB">OT:IBB</span
+><span lang="id" title="id → IND">OT:IND</span
+><span lang="ie" title="ie → ILE">OT:ILE</span
+><span lang="ig" title="ig → IBO">OT:IBO</span
+><span lang="igb" title="igb → EBI">OT:EBI</span
+><span lang="ii" title="ii → YIM">OT:YIM</span
+><span lang="ijc" title="ijc → IJO">OT:IJO</span
+><span lang="ik" title="ik → IPK">OT:IPK</span
+><span lang="ilo" title="ilo → ILO">OT:ILO</span
+><span lang="in" title="in → IND">OT:IND</span
+><span lang="inh" title="inh → ING">OT:ING</span
+><span lang="io" title="io → IDO">OT:IDO</span
+><span lang="is" title="is → ISL">OT:ISL</span
+><span lang="it" title="it → ITA">OT:ITA</span
+><span lang="iu" title="iu → INU">OT:INU</span
+><span lang="iw" title="iw → IWR">OT:IWR</span
+
+></div><div style="cursor:pointer">J:
+ <span lang="ja" title="ja → JAN">OT:JAN</span
+><span lang="jam" title="jam → JAM">OT:JAM</span
+><span lang="jbo" title="jbo → JBO">OT:JBO</span
+><span lang="jct" title="jct → JCT">OT:JCT</span
+><span lang="ji" title="ji → JII">OT:JII</span
+><span lang="jv" title="jv → JAV">OT:JAV</span
+
+></div><div style="cursor:pointer">K:
+ <span lang="kaa" title="kaa → KRK">OT:KRK</span
+><span lang="kab" title="kab → KAB0">OT:KAB0</span
+><span lang="kam" title="kam → KMB">OT:KMB</span
+><span lang="kar" title="kar → KRN">OT:KRN</span
+><span lang="kbd" title="kbd → KAB">OT:KAB</span
+><span lang="kde" title="kde → KDE">OT:KDE</span
+><span lang="kdr" title="kdr → KRM">OT:KRM</span
+><span lang="kdt" title="kdt → KUY">OT:KUY</span
+><span lang="kea" title="kea → KEA">OT:KEA</span
+><span lang="kek" title="kek → KEK">OT:KEK</span
+><span lang="kex" title="kex → KKN">OT:KKN</span
+><span lang="kfa" title="kfa → KOD">OT:KOD</span
+><span lang="kfr" title="kfr → KAC">OT:KAC</span
+><span lang="kfx" title="kfx → KUL">OT:KUL</span
+><span lang="kfy" title="kfy → KMN">OT:KMN</span
+><span lang="kg" title="kg → KON0">OT:KON0</span
+><span lang="kha" title="kha → KSI">OT:KSI</span
+><span lang="khb" title="khb → XBD">OT:XBD</span
+><span lang="kht" title="kht → KHT">OT:KHT</span
+><span lang="khw" title="khw → KHW">OT:KHW</span
+><span lang="ki" title="ki → KIK">OT:KIK</span
+><span lang="kiu" title="kiu → KIU">OT:KIU</span
+><span lang="kj" title="kj → KUA">OT:KUA</span
+><span lang="kjd" title="kjd → KJD">OT:KJD</span
+><span lang="kjh" title="kjh → KHA">OT:KHA</span
+><span lang="kjp" title="kjp → KJP">OT:KJP</span
+><span lang="kk" title="kk → KAZ">OT:KAZ</span
+><span lang="kl" title="kl → GRN">OT:GRN</span
+><span lang="kln" title="kln → KAL">OT:KAL</span
+><span lang="km" title="km → KHM">OT:KHM</span
+><span lang="kmb" title="kmb → MBN">OT:MBN</span
+><span lang="kmw" title="kmw → KMO">OT:KMO</span
+><span lang="kmz" title="kmz → KMZ">OT:KMZ</span
+><span lang="kn" title="kn → KAN">OT:KAN</span
+><span lang="ko" title="ko → KOR">OT:KOR</span
+><span lang="koi" title="koi → KOP">OT:KOP</span
+><span lang="kok" title="kok → KOK">OT:KOK</span
+><span lang="kos" title="kos → KOS">OT:KOS</span
+><span lang="kpe" title="kpe → KPL">OT:KPL</span
+><span lang="kpe" title="kpe → XPE">OT:XPE</span
+><span lang="kpy" title="kpy → KYK">OT:KYK</span
+><span lang="kqs" title="kqs → KIS">OT:KIS</span
+><span lang="kqy" title="kqy → KRT">OT:KRT</span
+><span lang="kr" title="kr → KNR">OT:KNR</span
+><span lang="kri" title="kri → KRI">OT:KRI</span
+><span lang="krl" title="krl → KRL">OT:KRL</span
+><span lang="kru" title="kru → KUU">OT:KUU</span
+><span lang="ks" title="ks → KSH">OT:KSH</span
+><span lang="ksh" title="ksh → KSH0">OT:KSH0</span
+><span lang="kss" title="kss → KIS">OT:KIS</span
+><span lang="ksw" title="ksw → KSW">OT:KSW</span
+><span lang="ktb" title="ktb → KEB">OT:KEB</span
+><span lang="ktu" title="ktu → KON">OT:KON</span
+><span lang="ku" title="ku → KUR">OT:KUR</span
+><span lang="kum" title="kum → KUM">OT:KUM</span
+><span lang="kv" title="kv → KOM">OT:KOM</span
+><span lang="kv" title="kv → KOZ">OT:KOZ</span
+><span lang="kw" title="kw → COR">OT:COR</span
+><span lang="kxc" title="kxc → KMS">OT:KMS</span
+><span lang="kxu" title="kxu → KUI">OT:KUI</span
+><span lang="ky" title="ky → KIR">OT:KIR</span
+><span lang="kyu" title="kyu → KYU">OT:KYU</span
+
+></div><div style="cursor:pointer">L:
+ <span lang="la" title="la → LAT">OT:LAT</span
+><span lang="lad" title="lad → JUD">OT:JUD</span
+><span lang="lah" title="lah → PNB">OT:PNB</span
+><span lang="lb" title="lb → LTZ">OT:LTZ</span
+><span lang="lbe" title="lbe → LAK">OT:LAK</span
+><span lang="lbj" title="lbj → LDK">OT:LDK</span
+><span lang="lez" title="lez → LEZ">OT:LEZ</span
+><span lang="lg" title="lg → LUG">OT:LUG</span
+><span lang="li" title="li → LIM">OT:LIM</span
+><span lang="lif" title="lif → LMB">OT:LMB</span
+><span lang="lij" title="lij → LIJ">OT:LIJ</span
+><span lang="lis" title="lis → LIS">OT:LIS</span
+><span lang="ljp" title="ljp → LJP">OT:LJP</span
+><span lang="lki" title="lki → LKI">OT:LKI</span
+><span lang="lld" title="lld → LAD">OT:LAD</span
+><span lang="lmn" title="lmn → LAM">OT:LAM</span
+><span lang="lmo" title="lmo → LMO">OT:LMO</span
+><span lang="ln" title="ln → LIN">OT:LIN</span
+><span lang="lo" title="lo → LAO">OT:LAO</span
+><span lang="lom" title="lom → LOM">OT:LOM</span
+><span lang="lrc" title="lrc → LRC">OT:LRC</span
+><span lang="lt" title="lt → LTH">OT:LTH</span
+><span lang="lu" title="lu → LUB">OT:LUB</span
+><span lang="lua" title="lua → LUA">OT:LUA</span
+><span lang="luo" title="luo → LUO">OT:LUO</span
+><span lang="lus" title="lus → MIZ">OT:MIZ</span
+><span lang="luy" title="luy → LUH">OT:LUH</span
+><span lang="luz" title="luz → LRC">OT:LRC</span
+><span lang="lv" title="lv → LVI">OT:LVI</span
+><span lang="lzz" title="lzz → LAZ">OT:LAZ</span
+
+></div><div style="cursor:pointer">M:
+ <span lang="mad" title="mad → MAD">OT:MAD</span
+><span lang="mag" title="mag → MAG">OT:MAG</span
+><span lang="mai" title="mai → MTH">OT:MTH</span
+><span lang="mak" title="mak → MKR">OT:MKR</span
+><span lang="mam" title="mam → MAM">OT:MAM</span
+><span lang="man" title="man → MNK">OT:MNK</span
+><span lang="mbo" title="mbo → MBO">OT:MBO</span
+><span lang="mdf" title="mdf → MOK">OT:MOK</span
+><span lang="mdr" title="mdr → MDR">OT:MDR</span
+><span lang="mdy" title="mdy → MLE">OT:MLE</span
+><span lang="men" title="men → MDE">OT:MDE</span
+><span lang="mer" title="mer → MER">OT:MER</span
+><span lang="mfe" title="mfe → MFE">OT:MFE</span
+><span lang="mg" title="mg → MLG">OT:MLG</span
+><span lang="mh" title="mh → MAH">OT:MAH</span
+><span lang="mhv" title="mhv → ARK">OT:ARK</span
+><span lang="mi" title="mi → MRI">OT:MRI</span
+><span lang="min" title="min → MIN">OT:MIN</span
+><span lang="mk" title="mk → MKD">OT:MKD</span
+><span lang="mku" title="mku → MNK">OT:MNK</span
+><span lang="mkw" title="mkw → MKW">OT:MKW</span
+><span lang="mn" title="mn → MNG">OT:MNG</span
+><span lang="mnc" title="mnc → MCH">OT:MCH</span
+><span lang="mni" title="mni → MNI">OT:MNI</span
+><span lang="mns" title="mns → MAN">OT:MAN</span
+><span lang="mnw" title="mnw → MON">OT:MON</span
+><span lang="moh" title="moh → MOH">OT:MOH</span
+><span lang="mos" title="mos → MOS">OT:MOS</span
+><span lang="mpe" title="mpe → MAJ">OT:MAJ</span
+><span lang="mr" title="mr → MAR">OT:MAR</span
+><span lang="mrj" title="mrj → HMA">OT:HMA</span
+><span lang="ms" title="ms → MLY">OT:MLY</span
+><span lang="msc" title="msc → MNK">OT:MNK</span
+><span lang="mt" title="mt → MTS">OT:MTS</span
+><span lang="mtr" title="mtr → MAW">OT:MAW</span
+><span lang="mus" title="mus → MUS">OT:MUS</span
+><span lang="mve" title="mve → MAW">OT:MAW</span
+><span lang="mwk" title="mwk → MNK">OT:MNK</span
+><span lang="mwl" title="mwl → MWL">OT:MWL</span
+><span lang="mwr" title="mwr → MAW">OT:MAW</span
+><span lang="mwr" title="mwr → MAW">OT:MAW</span
+><span lang="mww" title="mww → MWW">OT:MWW</span
+><span lang="my" title="my → BRM">OT:BRM</span
+><span lang="mym" title="mym → MEN">OT:MEN</span
+><span lang="myn" title="myn → MYN">OT:MYN</span
+><span lang="myq" title="myq → MNK">OT:MNK</span
+><span lang="myv" title="myv → ERZ">OT:ERZ</span
+><span lang="mzn" title="mzn → MZN">OT:MZN</span
+
+></div><div style="cursor:pointer">N:
+ <span lang="na" title="na → NAU">OT:NAU</span
+><span lang="nag" title="nag → NAG">OT:NAG</span
+><span lang="nah" title="nah → NAH">OT:NAH</span
+><span lang="nap" title="nap → NAP">OT:NAP</span
+><span lang="nd" title="nd → NDB">OT:NDB</span
+><span lang="ndc" title="ndc → NDC">OT:NDC</span
+><span lang="nds" title="nds → NDS">OT:NDS</span
+><span lang="ne" title="ne → NEP">OT:NEP</span
+><span lang="new" title="new → NEW">OT:NEW</span
+><span lang="ng" title="ng → NDG">OT:NDG</span
+><span lang="nga" title="nga → NGA">OT:NGA</span
+><span lang="ngl" title="ngl → LMW">OT:LMW</span
+><span lang="ngo" title="ngo → SXT">OT:SXT</span
+><span lang="niu" title="niu → NIU">OT:NIU</span
+><span lang="niv" title="niv → GIL">OT:GIL</span
+><span lang="nl" title="nl → NLD">OT:NLD</span
+><span lang="nn" title="nn → NYN">OT:NYN</span
+><span lang="no" title="no → NOR">OT:NOR</span
+><span lang="nod" title="nod → NTA">OT:NTA</span
+><span lang="noe" title="noe → NOE">OT:NOE</span
+><span lang="nog" title="nog → NOG">OT:NOG</span
+><span lang="nov" title="nov → NOV">OT:NOV</span
 ><span lang="nqo" title="nqo → NKO">OT:NKO</span
+><span lang="nr" title="nr → NDB">OT:NDB</span
+><span lang="nsk" title="nsk → NAS">OT:NAS</span
+><span lang="nso" title="nso → NSO">OT:NSO</span
+><span lang="nv" title="nv → NAV">OT:NAV</span
+><span lang="ny" title="ny → CHI">OT:CHI</span
+><span lang="nym" title="nym → NYM">OT:NYM</span
+><span lang="nyn" title="nyn → NKL">OT:NKL</span
+><span lang="nza" title="nza → NZA">OT:NZA</span
+
+></div><div style="cursor:pointer">O:
+ <span lang="oc" title="oc → OCI">OT:OCI</span
+><span lang="oj" title="oj → OJB">OT:OJB</span
+><span lang="ojs" title="ojs → OCR">OT:OCR</span
+><span lang="okm" title="okm → KOH">OT:KOH</span
+><span lang="om" title="om → ORO">OT:ORO</span
+><span lang="or" title="or → ORI">OT:ORI</span
+><span lang="os" title="os → OSS">OT:OSS</span
+
+></div><div style="cursor:pointer">P:
+ <span lang="pa" title="pa → PAN">OT:PAN</span
+><span lang="pag" title="pag → PAG">OT:PAG</span
+><span lang="pam" title="pam → PAM">OT:PAM</span
+><span lang="pap" title="pap → PAP0">OT:PAP0</span
+><span lang="pau" title="pau → PAU">OT:PAU</span
+><span lang="pcc" title="pcc → PCC">OT:PCC</span
+><span lang="pcd" title="pcd → PCD">OT:PCD</span
+><span lang="pce" title="pce → PLG">OT:PLG</span
+><span lang="pdc" title="pdc → PDC">OT:PDC</span
+><span lang="phk" title="phk → PHK">OT:PHK</span
+><span lang="pi" title="pi → PAL">OT:PAL</span
+><span lang="pih" title="pih → PIH">OT:PIH</span
+><span lang="pl" title="pl → PLK">OT:PLK</span
+><span lang="pll" title="pll → PLG">OT:PLG</span
+><span lang="plp" title="plp → PAP">OT:PAP</span
+><span lang="pms" title="pms → PMS">OT:PMS</span
+><span lang="poh" title="poh → POH">OT:POH</span
+><span lang="pon" title="pon → PON">OT:PON</span
+><span lang="pro" title="pro → PRO">OT:PRO</span
+><span lang="prs" title="prs → DRI">OT:DRI</span
+><span lang="ps" title="ps → PAS">OT:PAS</span
+><span lang="pt" title="pt → PTG">OT:PTG</span
+><span lang="pwo" title="pwo → PWO">OT:PWO</span
+
+></div><div style="cursor:pointer">Q:
+ <span lang="qu" title="qu → QUZ">OT:QUZ</span
+><span lang="quc" title="quc → QUC">OT:QUC</span
+><span lang="quh" title="quh → QUH">OT:QUH</span
+><span lang="qvi" title="qvi → QVI">OT:QVI</span
+><span lang="qwh" title="qwh → QWH">OT:QWH</span
+
+></div><div style="cursor:pointer">R:
+ <span lang="raj" title="raj → RAJ">OT:RAJ</span
+><span lang="rar" title="rar → RAR">OT:RAR</span
+><span lang="rbb" title="rbb → PLG">OT:PLG</span
+><span lang="rej" title="rej → REJ">OT:REJ</span
+><span lang="ria" title="ria → RIA">OT:RIA</span
+><span lang="rif" title="rif → RIF">OT:RIF</span
+><span lang="rit" title="rit → RIT">OT:RIT</span
+><span lang="rki" title="rki → ARK">OT:ARK</span
+><span lang="rkw" title="rkw → RKW">OT:RKW</span
 ><span lang="rm" title="rm → RMS">OT:RMS</span
+><span lang="rmz" title="rmz → ARK">OT:ARK</span
+><span lang="rn" title="rn → RUN">OT:RUN</span
+><span lang="rnl" title="rnl → HAL">OT:HAL</span
+><span lang="ro" title="ro → ROM">OT:ROM</span
+><span lang="ro-MD" title="ro-MD → MOL">OT:MOL</span
+><span lang="rom" title="rom → RMY">OT:RMY</span
+><span lang="rom" title="rom → ROY">OT:ROY</span
+><span lang="rtm" title="rtm → RTM">OT:RTM</span
+><span lang="ru" title="ru → RUS">OT:RUS</span
+><span lang="rue" title="rue → RSY">OT:RSY</span
+><span lang="rup" title="rup → RUP">OT:RUP</span
+><span lang="rw" title="rw → RUA">OT:RUA</span
+><span lang="rwr" title="rwr → MAW">OT:MAW</span
+
+></div><div style="cursor:pointer">S:
+ <span lang="sa" title="sa → SAN">OT:SAN</span
+><span lang="sah" title="sah → YAK">OT:YAK</span
+><span lang="sam" title="sam → PAA">OT:PAA</span
+><span lang="sas" title="sas → SAS">OT:SAS</span
+><span lang="sat" title="sat → SAT">OT:SAT</span
+><span lang="sc" title="sc → SRD">OT:SRD</span
+><span lang="sck" title="sck → SAD">OT:SAD</span
+><span lang="scn" title="scn → SCN">OT:SCN</span
+><span lang="sco" title="sco → SCO">OT:SCO</span
+><span lang="sd" title="sd → SND">OT:SND</span
+><span lang="se" title="se → NSM">OT:NSM</span
+><span lang="seh" title="seh → SNA">OT:SNA</span
+><span lang="sel" title="sel → SEL">OT:SEL</span
+><span lang="sg" title="sg → SGO">OT:SGO</span
+><span lang="sga" title="sga → SGA">OT:SGA</span
+><span lang="sgs" title="sgs → SGS">OT:SGS</span
+><span lang="sgw" title="sgw → CHG">OT:CHG</span
+><span lang="shi" title="shi → SHI">OT:SHI</span
+><span lang="shn" title="shn → SHN">OT:SHN</span
+><span lang="si" title="si → SNH">OT:SNH</span
+><span lang="sid" title="sid → SID">OT:SID</span
+><span lang="sjd" title="sjd → KSM">OT:KSM</span
+><span lang="sjo" title="sjo → SIB">OT:SIB</span
+><span lang="sk" title="sk → SKY">OT:SKY</span
+><span lang="skr" title="skr → SRK">OT:SRK</span
+><span lang="sl" title="sl → SLV">OT:SLV</span
+><span lang="sm" title="sm → SMO">OT:SMO</span
+><span lang="sma" title="sma → SSM">OT:SSM</span
+><span lang="smj" title="smj → LSM">OT:LSM</span
+><span lang="smn" title="smn → ISM">OT:ISM</span
+><span lang="sms" title="sms → SKS">OT:SKS</span
+><span lang="sn" title="sn → SNA0">OT:SNA0</span
+><span lang="snk" title="snk → SNK">OT:SNK</span
+><span lang="so" title="so → SML">OT:SML</span
+><span lang="sop" title="sop → SOP">OT:SOP</span
+><span lang="sq" title="sq → SQI">OT:SQI</span
+><span lang="sr" title="sr → SRB">OT:SRB</span
+><span lang="srr" title="srr → SRR">OT:SRR</span
+><span lang="ss" title="ss → SWZ">OT:SWZ</span
+><span lang="st" title="st → SOT">OT:SOT</span
+><span lang="stq" title="stq → STQ">OT:STQ</span
+><span lang="stv" title="stv → SIG">OT:SIG</span
+><span lang="su" title="su → SUN">OT:SUN</span
+><span lang="suk" title="suk → SUK">OT:SUK</span
+><span lang="suq" title="suq → SUR">OT:SUR</span
+><span lang="sv" title="sv → SVE">OT:SVE</span
+><span lang="sva" title="sva → SVA">OT:SVA</span
+><span lang="sw" title="sw → SWK">OT:SWK</span
+><span lang="swb" title="swb → CMR">OT:CMR</span
+><span lang="swv" title="swv → MAW">OT:MAW</span
+><span lang="sxu" title="sxu → SXU">OT:SXU</span
+><span lang="syl" title="syl → SYL">OT:SYL</span
+><span lang="syr" title="syr → SYR">OT:SYR</span
+><span lang="szl" title="szl → SZL">OT:SZL</span
+
+></div><div style="cursor:pointer">T:
+ <span lang="ta" title="ta → TAM">OT:TAM</span
+><span lang="tab" title="tab → TAB">OT:TAB</span
+><span lang="tcy" title="tcy → TUL">OT:TUL</span
+><span lang="tdd" title="tdd → TDD">OT:TDD</span
+><span lang="te" title="te → TEL">OT:TEL</span
+><span lang="tem" title="tem → TMN">OT:TMN</span
+><span lang="tet" title="tet → TET">OT:TET</span
+><span lang="tg" title="tg → TAJ">OT:TAJ</span
+><span lang="th" title="th → THA">OT:THA</span
+><span lang="ti" title="ti → TGY">OT:TGY</span
+><span lang="tig" title="tig → TGR">OT:TGR</span
+><span lang="tiv" title="tiv → TIV">OT:TIV</span
+><span lang="tk" title="tk → TKM">OT:TKM</span
+><span lang="tmh" title="tmh → TMH">OT:TMH</span
+><span lang="tn" title="tn → TNA">OT:TNA</span
+><span lang="to" title="to → TGN">OT:TGN</span
+><span lang="tod" title="tod → TOD0">OT:TOD0</span
+><span lang="toi" title="toi → TNG">OT:TNG</span
+><span lang="tpi" title="tpi → TPI">OT:TPI</span
+><span lang="tr" title="tr → TRK">OT:TRK</span
+><span lang="tru" title="tru → TUA">OT:TUA</span
+><span lang="ts" title="ts → TSG">OT:TSG</span
+><span lang="tt" title="tt → TAT">OT:TAT</span
+><span lang="tum" title="tum → TUM">OT:TUM</span
+><span lang="tvl" title="tvl → TVL">OT:TVL</span
+><span lang="ty" title="ty → THT">OT:THT</span
+><span lang="tyv" title="tyv → TUV">OT:TUV</span
+><span lang="tyz" title="tyz → TYZ">OT:TYZ</span
+><span lang="tzm" title="tzm → TZM">OT:TZM</span
+><span lang="tzo" title="tzo → TZO">OT:TZO</span
+
+></div><div style="cursor:pointer">U:
+ <span lang="udm" title="udm → UDM">OT:UDM</span
+><span lang="ug" title="ug → UYG">OT:UYG</span
+><span lang="uk" title="uk → UKR">OT:UKR</span
+><span lang="umb" title="umb → UMB">OT:UMB</span
+><span lang="unr" title="unr → MUN">OT:MUN</span
+><span lang="ur" title="ur → URD">OT:URD</span
+><span lang="uz" title="uz → UZB">OT:UZB</span
+
+></div><div style="cursor:pointer">V:
+ <span lang="ve" title="ve → VEN">OT:VEN</span
+><span lang="vec" title="vec → VEC">OT:VEC</span
+><span lang="vi" title="vi → VIT">OT:VIT</span
+><span lang="vls" title="vls → FLE">OT:FLE</span
+><span lang="vmw" title="vmw → MAK">OT:MAK</span
+><span lang="vo" title="vo → VOL">OT:VOL</span
+><span lang="vro" title="vro → VRO">OT:VRO</span
+
+></div><div style="cursor:pointer">W:
+ <span lang="wa" title="wa → WLN">OT:WLN</span
+><span lang="war" title="war → WAR">OT:WAR</span
+><span lang="wbm" title="wbm → WA">OT:WA</span
+><span lang="wbr" title="wbr → WAG">OT:WAG</span
+><span lang="wlc" title="wlc → CMR">OT:CMR</span
+><span lang="wle" title="wle → SIG">OT:SIG</span
+><span lang="wni" title="wni → CMR">OT:CMR</span
 ><span lang="wo" title="wo → WLF">OT:WLF</span
-><span lang="zh" title="zh → ZHS">OT:ZHS</span
+><span lang="wry" title="wry → MAW">OT:MAW</span
+><span lang="wtm" title="wtm → WTM">OT:WTM</spa
+
+></div><div style="cursor:pointer">X:
+ <span lang="xan" title="xan → SEK">OT:SEK</span
+><span lang="xh" title="xh → XHS">OT:XHS</span
+><span lang="xjb" title="xjb → XJB">OT:XJB</span
+><span lang="xog" title="xog → XOG">OT:XOG</span
+><span lang="yao" title="yao → YAO">OT:YAO</span
+><span lang="yap" title="yap → YAP">OT:YAP</span
+
+></div><div style="cursor:pointer">Y:
+<span lang="ydd" title="ydd → JII">OT:JII</span
+><span lang="yi" title="yi → JII">OT:JII</span
+><span lang="yih" title="yih → JII">OT:JII</span
+><span lang="yo" title="yo → YBA">OT:YBA</span
+><span lang="za" title="za → ZHA">OT:ZHA</span
+
+></div><div style="cursor:pointer">Z:
+ <span lang="zdj" title="zdj → CMR">OT:CMR</span
+><span lang="zea" title="zea → ZEA">OT:ZEA</span
+><span lang="zgh" title="zgh → ZGH">OT:ZGH</span
 ><span lang="zh-CN" title="zh-CN → ZHS">OT:ZHS</span
 ><span lang="zh-CN-fonipa" title="zh-CN-fonipa → IPPH">OT:IPPH</span
 ><span lang="zh-Latn-pinyin" title="zh-Latn-pinyin → ZHP">OT:ZHP</span
 ><span lang="zh-TW" title="zh-TW → ZHT">OT:ZHT</span
 ><span lang="zh-Hans" title="zh-Hans → ZHS">OT:ZHS</span
 ><span lang="zh-Hant" title="zh-Hant → ZHT">OT:ZHT</span
+><span lang="zne" title="zne → ZND">OT:ZND</span
+><span lang="zu" title="zu → ZUL">OT:ZUL</span
+><span lang="zum" title="zum → LRC">OT:LRC</span
+><span lang="zza" title="zza → DIQ">OT:DIQ</span
+><span lang="zza" title="zza → ZZA">OT:ZZA</span
 >
 
     </div>
