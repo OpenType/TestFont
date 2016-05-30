@@ -34,11 +34,11 @@
     <p>TODO: Add many, many more test cases.</p>
 
     <p>
-        TODO: Resolve the following issues with BCP47 → OpenType mapping.
+        TODO: Resolve what mapping should be done for these BCP47 codes:
         ak → AKA,TWI · chp → CHP,SAY · cr → CRE,YCR,DCR,TCR ·
         crm → LCR,MCR · csw → NCR,NHC · den → SLA,SSL ·
         ga → IRI,IRT ·
-        hy → HYE,HYE0 · ka → KAT,KGE · kca → KHK,KHS,KHV ·
+        hy → HYE,HYE0 · kca → KHK,KHS,KHV ·
         krc → BAL,KAR · man → EMK,MNK,MND · ml → MAL,MLR ·
         mlq → MLN,MNK · scs → SCS,SLA · xal → KLM,TOD ·
         zh → ZHH,ZHP,ZHS,ZHT
@@ -46,7 +46,8 @@
 
     <p>
       TODO: Systematically add BCP47 macrolanguages, collections,
-      and deprecated languages.
+      deprecated codes, and grandfathered codes. Add test cases
+      for extensions T and U.
     </p>
 
     <p>TODO: Test cases for Garshuni (Arabic languages written in Syriac)</p>
@@ -119,6 +120,7 @@
 ><span lang="bcq" title="bcq → BCH">OT:BCH</span
 ><span lang="bdy" title="bdy → BDY">OT:BDY</span
 ><span lang="be" title="be → BEL">OT:BEL</span
+><span lang="be-tarask" title="be-tarask → BEL">OT:BEL</span
 ><span lang="bem" title="bem → BEM">OT:BEM</span
 ><span lang="bfq" title="bfq → BAD">OT:BAD</span
 ><span lang="bft" title="bft → BLT">OT:BLT</span
@@ -223,9 +225,22 @@
 ><span lang="el" title="el → ELL">OT:ELL</span
 ><span lang="el-TR" title="el-TR → ELL">OT:ELL</span
 ><span lang="el-fonipa" title="el-fonipa → IPPH">OT:IPPH</span
+><span lang="el-monoton" title="el-monoton → PGR">OT:ELL</span
 ><span lang="el-polyton" title="el-polyton → PGR">OT:PGR</span
 ><span lang="el-polyton-fonipa" title="el-polyton-fonipa → IPPH">OT:IPPH</span
 ><span lang="en" title="en → ENG">OT:ENG</span
+><span lang="en-CA" title="en-CA → ENG">OT:ENG</span
+><span lang="en-CA-newfound" title="en-CA-newfound → ENG">OT:ENG</span
+><span lang="en-US" title="en-US → ENG">OT:ENG</span
+><span lang="en-oxendict" title="en-oxendict → ENG">OT:ENG</span
+><span lang="en-GB-oed" title="en-GB-oed → ENG">OT:ENG</span
+><span lang="en-GB-oxendict" title="en-GB-oxendict → ENG">OT:ENG</span
+><span lang="en-scotland" title="en-scotland → ENG">OT:ENG</span
+><span lang="en-scouse" title="en-scouse → ENG">OT:ENG</span
+><span lang="en-simple" title="en-simple → ENG">OT:ENG</span
+><span lang="en-fonipa-scouse" title="en-fonipa-scouse → IPPH">OT:IPPH</span
+><span lang="en-scouse-fonipa" title="en-scouse-fonipa → IPPH">OT:IPPH</span
+><span lang="en-Cyrl-t-ru-fonipa" title="en-Cyrl-t-ru-fonipa → ENG">OT:ENG</span
 ><span lang="enf" title="enf → FNE">OT:FNE</span
 ><span lang="enh" title="enh → TNE">OT:TNE</span
 ><span lang="eo" title="eo → NTO">OT:NTO</span
@@ -273,6 +288,8 @@
 ><span lang="grt" title="grt → GRO">OT:GRO</span
 ><span lang="gru" title="gru → SOG">OT:SOG</span
 ><span lang="gsw" title="gsw → ALS">OT:ALS</span
+><span lang="gsw-CH" title="gsw-CH → ALS">OT:ALS</span
+><span lang="gsw-LI" title="gsw-LI → ALS">OT:ALS</span
 ><span lang="gu" title="gu → GUJ">OT:GUJ</span
 ><span lang="guc" title="guc → GUC">OT:GUC</span
 ><span lang="guf" title="guf → GUF">OT:GUF</span
@@ -314,6 +331,8 @@
 ><span lang="ijc" title="ijc → IJO">OT:IJO</span
 ><span lang="ik" title="ik → IPK">OT:IPK</span
 ><span lang="ilo" title="ilo → ILO">OT:ILO</span
+><span lang="i-lux" title="i-lux → LTZ">OT:LTZ</span
+><span lang="i-navajo" title="i-navajo → NAV">OT:NAV</span
 ><span lang="in" title="in → IND">OT:IND</span
 ><span lang="inh" title="inh → ING">OT:ING</span
 ><span lang="io" title="io → IDO">OT:IDO</span
@@ -324,6 +343,14 @@
 
 ></div><div style="cursor:pointer">J:
  <span lang="ja" title="ja → JAN">OT:JAN</span
+><span lang="ja-Hrkt" title="ja-Hrkt → JAN">OT:JAN</span
+><span lang="ja-Kana" title="ja-Kana → JAN">OT:JAN</span
+><span lang="ja-Kana-t-el-polyton" title="ja-Kana-t-el-polyton → JAN">OT:JAN</span
+><span lang="ja-Kana-t-it" title="ja-Kana-t-it → JAN">OT:JAN</span
+><span lang="ja-Kana-t-it-fonipa" title="ja-Kana-t-it-fonipa → JAN">OT:JAN</span
+><span lang="ja-Kana-t-und-latn-m0-ungegn-2007" title="ja-Kana-t-und-latn-m0-ungegn-2007 → JAN">OT:JAN</span
+><span lang="ja-Latn" title="ja-Latn → JAN">OT:JAN</span
+><span lang="ja-t-it" title="ja-t-it → JAN">OT:JAN</span
 ><span lang="jam" title="jam → JAM">OT:JAM</span
 ><span lang="jbo" title="jbo → JBO">OT:JBO</span
 ><span lang="jct" title="jct → JCT">OT:JCT</span
@@ -334,12 +361,17 @@
  <span lang="kaa" title="kaa → KRK">OT:KRK</span
 ><span lang="kab" title="kab → KAB0">OT:KAB0</span
 ><span lang="kam" title="kam → KMB">OT:KMB</span
+><span lang="ka" title="ka → KAT">OT:KAT</span
+><span lang="ka-Ethi" title="ka-Ethi → KAT">OT:KAT</span
+><span lang="ka-Geok" title="ka-Geok → KGE">OT:KGE</span
+><span lang="ka-Geor" title="ka-Geor → KAT">OT:KAT</span
 ><span lang="kar" title="kar → KRN">OT:KRN</span
 ><span lang="kbd" title="kbd → KAB">OT:KAB</span
 ><span lang="kde" title="kde → KDE">OT:KDE</span
 ><span lang="kdr" title="kdr → KRM">OT:KRM</span
 ><span lang="kdt" title="kdt → KUY">OT:KUY</span
 ><span lang="kea" title="kea → KEA">OT:KEA</span
+><span lang="kea-sotav" title="kea-sotav → KEA">OT:KEA</span
 ><span lang="kek" title="kek → KEK">OT:KEK</span
 ><span lang="kex" title="kex → KKN">OT:KKN</span
 ><span lang="kfa" title="kfa → KOD">OT:KOD</span
@@ -389,6 +421,8 @@
 ><span lang="kv" title="kv → KOM">OT:KOM</span
 ><span lang="kv" title="kv → KOZ">OT:KOZ</span
 ><span lang="kw" title="kw → COR">OT:COR</span
+><span lang="kw-uccor" title="kw-uccor → COR">OT:COR</span
+><span lang="kw-ucrcor" title="kw-ucrcor → COR">OT:COR</span
 ><span lang="kxc" title="kxc → KMS">OT:KMS</span
 ><span lang="kxu" title="kxu → KUI">OT:KUI</span
 ><span lang="ky" title="ky → KIR">OT:KIR</span
@@ -561,6 +595,12 @@
 ><span lang="rki" title="rki → ARK">OT:ARK</span
 ><span lang="rkw" title="rkw → RKW">OT:RKW</span
 ><span lang="rm" title="rm → RMS">OT:RMS</span
+><span lang="rm-puter" title="rm-puter → RMS">OT:RMS</span
+><span lang="rm-rumgr" title="rm-rumgr → RMS">OT:RMS</span
+><span lang="rm-surmiran" title="rm-surmiran → RMS">OT:RMS</span
+><span lang="rm-sursilv" title="rm-sursilv → RMS">OT:RMS</span
+><span lang="rm-sutsilv" title="rm-sutsilv → RMS">OT:RMS</span
+><span lang="rm-vallader" title="rm-vallader → RMS">OT:RMS</span
 ><span lang="rmz" title="rmz → ARK">OT:ARK</span
 ><span lang="rn" title="rn → RUN">OT:RUN</span
 ><span lang="rnl" title="rnl → HAL">OT:HAL</span
@@ -585,6 +625,7 @@
 ><span lang="sck" title="sck → SAD">OT:SAD</span
 ><span lang="scn" title="scn → SCN">OT:SCN</span
 ><span lang="sco" title="sco → SCO">OT:SCO</span
+><span lang="sco-ulster" title="sco-ulster → SCO">OT:SCO</span
 ><span lang="sd" title="sd → SND">OT:SND</span
 ><span lang="se" title="se → NSM">OT:NSM</span
 ><span lang="seh" title="seh → SNA">OT:SNA</span
@@ -602,6 +643,10 @@
 ><span lang="sk" title="sk → SKY">OT:SKY</span
 ><span lang="skr" title="skr → SRK">OT:SRK</span
 ><span lang="sl" title="sl → SLV">OT:SLV</span
+><span lang="sl-IT-nedis" title="sl-IT-nedis → SLV">OT:SLV</span
+><span lang="sl-rozaj-njiva" title="sl-rozaj-njiva → SLV">OT:SLV</span
+><span lang="sl-rozaj-osojs" title="sl-rozaj-osojs → SLV">OT:SLV</span
+><span lang="sl-rozaj-solba" title="sl-rozaj-solba → SLV">OT:SLV</span
 ><span lang="sm" title="sm → SMO">OT:SMO</span
 ><span lang="sma" title="sma → SSM">OT:SSM</span
 ><span lang="smj" title="smj → LSM">OT:LSM</span
@@ -680,6 +725,7 @@
 ><span lang="vls" title="vls → FLE">OT:FLE</span
 ><span lang="vmw" title="vmw → MAK">OT:MAK</span
 ><span lang="vo" title="vo → VOL">OT:VOL</span
+><span lang="vo-nulik" title="vo-nulik → VOL">OT:VOL</span
 ><span lang="vro" title="vro → VRO">OT:VRO</span
 
 ></div><div style="cursor:pointer">W:
